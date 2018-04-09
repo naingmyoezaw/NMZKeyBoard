@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<nnl.keyboard.EmojiIconsTabBar
+		android:id="@+id/emojis_tab"
+		android:background="@drawable/onekeybackground"
+		android:layout_width="match_parent"
+		android:layout_height="50dip"
+		android:layout_alignParentTop="true">
+
+		<TextView
+			android:id="@+id/tab_emoji_recents"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			style="?android:attr/imageButtonStyle"
+			android:text="emoji_symbols"
+			android:textColor="#FFFFFF"
+			android:textSize="40dp"
+			android:background="@drawable/emoji_tab_button"
+			android:contentDescription="@null"/>
+
+		<TextView
+			android:id="@+id/tab_emoji_faces"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			style="?android:attr/imageButtonStyle"
+			android:text="emoji_symbols"
+			android:textColor="#FFFFFF"
+			android:textSize="40dp"
+			android:background="@drawable/emoji_tab_button"
+			android:contentDescription="@null"/>
+
+		<TextView
+			android:id="@+id/tab_emoji_objects"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			style="?android:attr/imageButtonStyle"
+			android:text="emoji_symbols"
+			android:textColor="#FFFFFF"
+			android:textSize="40dp"
+			android:background="@drawable/emoji_tab_button"
+			android:contentDescription="@null"/>
+
+		<TextView
+			android:id="@+id/tab_emoji_nature"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			style="?android:attr/imageButtonStyle"
+			android:text="emoji_symbols"
+			android:textColor="#FFFFFF"
+			android:textSize="40dp"
+			android:background="@drawable/emoji_tab_button"
+			android:contentDescription="@null"/>
+
+		<TextView
+			android:id="@+id/tab_emoji_places"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			style="?android:attr/imageButtonStyle"
+			android:text="emoji_symbols"
+			android:textColor="#FFFFFF"
+			android:textSize="40dp"
+			android:background="@drawable/emoji_tab_button"
+			android:contentDescription="@null"/>
+
+		<TextView
+			android:id="@+id/tab_emoji_symbols"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			style="?android:attr/imageButtonStyle"
+			android:text="emoji_symbols"
+			android:textColor="#FFFFFF"
+			android:textSize="40dp"
+			android:background="@drawable/emoji_tab_button"
+			android:contentDescription="@null"/>
+
+		<TextView
+			android:id="@+id/tab_emoji_emoticons"
+			android:layout_width="0dip"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			style="?android:attr/imageButtonStyle"
+			android:text="emoji_symbols"
+			android:textColor="#FFFFFF"
+			android:textSize="40dp"
+			android:background="@drawable/emoji_tab_button"
+			android:contentDescription="@null"/>
+
+	</nnl.keyboard.EmojiIconsTabBar>
+
+	<View
+		android:id="@+id/upperline"
+		android:layout_width="match_parent"
+		android:layout_height="1px"
+		android:background="#0a0a0a"
+		android:layout_below="@+id/emojis_tab"/>
+
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/emojis_pager"
+		android:layout_below="@+id/upperline"
+		android:layout_above="@+id/emojiBottomLayout"
+		android:layout_width="match_parent"
+		android:layout_weight="4"
+		android:background="#898991"
+		android:layout_height="match_parent"/>
+
+
+
+	<LinearLayout
+		android:layout_height="48dp"
+		android:id="@+id/emojiBottomLayout"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="@drawable/btnback"
+		android:gravity="center"
+		android:layout_alignParentBottom="true">
+
+		<Button
+			android:layout_height="match_parent"
+			android:textColor="#ffffff"
+			android:tag="2300"
+			android:layout_marginRight="75dp"
+			android:layout_gravity="center"
+			android:background="@drawable/keyboard_ic"
+			android:layout_width="45dp"/>
+		<Button
+			android:layout_height="match_parent"
+			android:textColor="#ffffff"
+			android:tag="32"
+			android:layout_marginRight="50dp"
+			android:background="@drawable/sym_keyboard_space"
+			android:layout_width="90dp"/>
+
+		<Button
+			android:layout_height="match_parent"
+			android:textColor="#ffffff"
+			android:background="@drawable/sym_keyboard_delete"
+			android:tag="-5"
+			android:layout_width="43dp"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

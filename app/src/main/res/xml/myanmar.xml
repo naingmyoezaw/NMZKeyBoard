@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<Keyboard xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:keyWidth="20.000002%p"
+    android:keyHeight="60dp"
+    android:horizontalGap="0.0px"
+    android:verticalGap="0.0px" >
+
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="4192" android:keyLabel="--ၠ"/>
+        <Key android:codes="04193" android:keyLabel="--ၡ"/>
+        <Key android:codes="4194" android:keyLabel="--ၢ"/>
+        <Key android:codes="4195" android:keyLabel="--ၣ"/>
+        <Key android:codes="04197" android:keyLabel="--ၥ "/>
+        <Key android:codes="04200" android:keyLabel="--ၨ"/>
+        <Key android:codes="04201" android:keyLabel="--ၩ "/>
+        <Key android:codes="04205" android:keyLabel="--ၭ "/>
+        <Key android:codes="04208" android:keyLabel="--ၰ"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="04213" android:keyLabel="--ၵ"/>
+        <Key android:codes="04214" android:keyLabel="--ၶ"/>
+        <Key android:codes="04215" android:keyLabel="--ၷ"/>
+        <Key android:codes="04216" android:keyLabel="--ၸ "/>
+        <Key android:codes="04217" android:keyLabel="--ၹ "/>
+        <Key android:codes="04218" android:keyLabel="--ၺ"/>
+        <Key android:codes="04219" android:keyLabel="--ၻ"/>
+        <Key android:codes="04220" android:keyLabel="--ၼ "/>
+        <Key android:codes="04229" android:keyLabel="--ႅ"/>
+        <Key android:codes="04246" android:keyLabel="--႖ "/>
+    </Row>
+
+    <Row>
+        <Key android:codes="04209" android:keyLabel="--ၱ"/>
+        <Key android:codes="04210" android:keyLabel="--ၱ"/>
+        <Key android:codes="04211" android:keyLabel="--ၳ"/>
+        <Key android:codes="04212" android:keyLabel="--ၳ"/>
+        <Key android:codes="04198" android:keyLabel="--ၦ"/>
+        <Key android:codes="04199" android:keyLabel="--ၦ "/>
+        <Key android:codes="04243" android:keyLabel="--ၻ"/>
+        <Key android:codes="04237" android:keyLabel="--ႍ "/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-106" android:keyIcon="@drawable/keyboard_ic"
+            android:keyWidth="100%p"/>
+    </Row>
+</Keyboard>
